@@ -3,9 +3,10 @@
     "name": "tinder-clone",
     "slug": "tinder-clone",
     "version": "1.0.0",
+    "scheme": "https://auth.expo.io/@vladyslavn13/tinder-clone",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "r": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -28,6 +29,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a1244fd2-bc30-4002-84d9-fc79a7769dec"
+      }
+    },
+    "owner": "vladyslavn13"
   }
 }
